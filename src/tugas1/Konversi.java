@@ -20,5 +20,13 @@ public class Konversi {
         System.out.println("Dalam Fahrenheit    : " + fahrenheit + " F");
         System.out.println("Dalam Reamur        : " + reamur + " R");
         System.out.println("Dalam Kelvin        : " + kelvin + " K");
+        
+        if(suhu >= 100){
+            System.out.println("Kondisi Air Mendidih.");
+        }else if(suhu <= 0){
+            System.out.println("Kondisi Air Beku.");
+        }else{
+            System.out.println("Kondisi Air Normal.");
+        }
     }
 }
